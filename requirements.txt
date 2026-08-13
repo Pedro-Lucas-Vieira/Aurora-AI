@@ -16,3 +16,4 @@ unstructured
 beautifulsoup4
 lxml
 tiktoken
+tiktoken
