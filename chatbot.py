@@ -15,9 +15,9 @@ from langchain_google_genai import (
 from langchain_community.vectorstores import FAISS
 
 
-# ============================================================
+
 # CONFIGURAÇÕES
-# ============================================================
+
 
 load_dotenv()
 
@@ -27,9 +27,9 @@ if not GOOGLE_API_KEY:
     raise ValueError("GOOGLE_API_KEY não encontrada no .env")
 
 
-# ============================================================
+
 # EMBEDDINGS
-# ============================================================
+
 
 embeddings = GoogleGenerativeAIEmbeddings(
     model="gemini-embedding-2",
@@ -37,9 +37,9 @@ embeddings = GoogleGenerativeAIEmbeddings(
 )
 
 
-# ============================================================
+
 # CARREGA A BASE FAISS
-# ============================================================
+
 
 print("Carregando base vetorial...")
 
@@ -52,19 +52,20 @@ vectorstore = FAISS.load_local(
 print("Base vetorial carregada com sucesso.")
 
 
-# ============================================================
+
 # MODELO GEMINI
-# ============================================================
+
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",  # <--- ATUALIZADO AQUI
     google_api_key=GOOGLE_API_KEY,
     temperature=0.2
+
 )
 
-# ============================================================
+#
 # HISTÓRICO
-# ============================================================
+#
 
 historico = []
 
