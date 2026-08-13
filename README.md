@@ -298,5 +298,5 @@ Este projeto foi desenvolvido para fins educacionais e para demonstração de ha
 ---
 
 <p align="center">
-Desenvolvido com 💙 por <strong>Pedro Lucas</strong>.
+Desenvolvido  por <strong>Pedro Lucas</strong>.
 </p>
