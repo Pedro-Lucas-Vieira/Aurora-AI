@@ -1,0 +1,64 @@
+{
+  "clientes": [
+    {
+      "id_cliente": "CLI-004821",
+      "nome": "Cliente Ficticio 01",
+      "tipo_conta": "conta pj",
+      "agencia": "0032",
+      "conta": "00219-4",
+      "data_abertura": "2019-04-11",
+      "segmento": "Varejo",
+      "saldo_medio": 8450.32,
+      "score_credito": 712,
+      "status": "ativo"
+    },
+    {
+      "id_cliente": "CLI-004822",
+      "nome": "Cliente Ficticio 02",
+      "tipo_conta": "investimento",
+      "agencia": "0032",
+      "conta": "00344-1",
+      "data_abertura": "2021-08-23",
+      "segmento": "Varejo",
+      "saldo_medio": 2310.75,
+      "score_credito": 598,
+      "status": "ativo"
+    },
+    {
+      "id_cliente": "CLI-004823",
+      "nome": "Empresa Ficticia LTDA",
+      "tipo_conta": "Conta Corrente Pessoa Juridica",
+      "agencia": "0047",
+      "conta": "01102-9",
+      "data_abertura": "2018-02-14",
+      "segmento": "PJ - Pequenas Empresas",
+      "saldo_medio": 54230.10,
+      "score_credito": 745,
+      "status": "ativo"
+    },
+    {
+      "id_cliente": "CLI-004824",
+      "nome": "Cliente Ficticio 03",
+      "tipo_conta": "conta pj",
+      "agencia": "0015",
+      "conta": "00987-2",
+      "data_abertura": "2023-01-30",
+      "segmento": "Private",
+      "saldo_medio": 312450.00,
+      "score_credito": 810,
+      "status": "ativo"
+    },
+    {
+      "id_cliente": "CLI-004825",
+      "nome": "Cliente Ficticio 04",
+      "tipo_conta": "conta pj",
+      "agencia": "0032",
+      "conta": "00512-8",
+      "data_abertura": "2020-06-09",
+      "segmento": "Varejo",
+      "saldo_medio": 1200.40,
+      "score_credito": 480,
+      "status": "inativo"
+    }
+  ]
+}

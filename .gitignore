@@ -1,0 +1,36 @@
+# Ambiente Virtual
+venv/
+.venv/
+venv_req_test/
+
+# Variáveis de ambiente
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Base Vetorial
+vectorstore/
