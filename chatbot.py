@@ -57,9 +57,11 @@ print("Base vetorial carregada com sucesso.")
 
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash-002",  
+    model="gemini-3.5-flash",
     google_api_key=GOOGLE_API_KEY,
     temperature=0.2
+
+
 
 )
 
