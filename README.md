@@ -16,16 +16,14 @@
   <img src="https://img.shields.io/badge/FAISS-Vector%20Database-orange" alt="FAISS">
 </p>
 
-<p align="center">
-  <img src="assets/app-preview.png" alt="Interface do AURORA AI" width="900">
-</p>
+
 
 <p align="center">
-  <a href="https://">
+  <a href="https://aurora-ai-qxn3gfefx49kdjb9qzuo8.streamlit.app/">
     🌐 Acessar Aplicação
   </a>
   •
-  <a href="https://github.com">
+  <a href="https://github.com/Pedro-Lucas-Vieira/Aurora-AI.git">
     📂 Repositório GitHub
   </a>
 </p>
@@ -45,20 +43,12 @@
 
 ---
 
-## 🖼️ GIF de Uso
-
-<p align="center">
-  <!-- Substitua pelo caminho do GIF demonstrando o funcionamento da aplicação -->
-  <img src="assets/demo.gif" alt="Demonstração em GIF do AURORA AI" width="900">
-</p>
-
----
 
 ## 📷 Imagens da Aplicação
 
 <p align="center">
-  <img src="assets/screenshot-1.png" alt="Tela inicial do chat" width="45%">
-  <img src="assets/screenshot-2.png" alt="Exemplo de resposta com contexto" width="45%">
+  <img src="assets/Tela_inicial_chat.png" alt="Tela inicial do chat" width="45%">
+  <img src="assets/AURORA-AI-RESPONDENDO.png" alt="Exemplo de resposta com contexto" width="45%">
 </p>
 
 ---
@@ -67,7 +57,7 @@
 
 O **AURORA AI** é um assistente corporativo baseado na arquitetura **Retrieval-Augmented Generation (RAG)**.
 
-A aplicação permite que colaboradores consultem documentos internos da empresa por meio de uma conversa em linguagem natural.
+A aplicação permite consultar documentos internos da Aurora S.A. por meio de conversas em linguagem natural. A Aurora S.A. é uma instituição financeira fictícia que oferece conta digital, crédito empresarial, cartões corporativos e investimentos para empresas de todos os portes.
 
 Antes de responder qualquer pergunta, o sistema realiza uma busca semântica utilizando **FAISS**, recupera os documentos mais relevantes e envia essas informações como contexto para o **Google Gemini**, garantindo respostas fundamentadas exclusivamente na documentação disponível.
 
@@ -107,7 +97,7 @@ Algumas perguntas que podem ser feitas ao AURORA AI, de acordo com a documentaç
 - "Quais  são  os produtos da empresa ?"
 - "Qual a  Demonstração do Resultado do Exercício ?"
 - "Quais são os Princípios Éticos da empresa ?"
-- "quantos clientes são da os clientes da agência '0032'?"
+- "Quantos clientes são da os clientes da agência '0032'?"
 - "Qual a data que o Comunicado Institucional foi publicado ?"
 - "Quais são serviços isentos de tarifas ?"
 
@@ -263,7 +253,7 @@ A aplicação está disponível no **Streamlit Community Cloud**.
 
 **Acesse:**
 
-👉 https://
+👉 https://aurora-ai-qxn3gfefx49kdjb9qzuo8.streamlit.app/
 
 ---
 
