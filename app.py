@@ -107,7 +107,7 @@ with st.sidebar:
     st.subheader("Tecnologias")
 
     st.markdown("""
-- Gemini 3.5 Flash
+- Gemini 2.0 Flash
 - Google Embeddings
 - FAISS
 - LangChain
