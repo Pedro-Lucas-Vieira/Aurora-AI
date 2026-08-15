@@ -174,7 +174,7 @@ AURORA-AI/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/Pedro-Lucas-Vieira/Aurora-AI.git
 ```
 
 ### 2. Entre na pasta do projeto
@@ -267,6 +267,12 @@ Em produção, a chave é configurada utilizando o recurso **Secrets** do Stream
 
 ---
 
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins educacionais e para demonstração de habilidades em Inteligência Artificial, Retrieval-Augmented Generation (RAG), Python, LangChain e Streamlit.
+
+---
+
 ## 👨‍💻 Autor
 
 <p align="center">
@@ -280,13 +286,3 @@ Em produção, a chave é configurada utilizando o recurso **Secrets** do Stream
 </p>
 
 ---
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais e para demonstração de habilidades em Inteligência Artificial, Retrieval-Augmented Generation (RAG), Python, LangChain e Streamlit.
-
----
-
-<p align="center">
-Desenvolvido  por <strong>Pedro Lucas</strong>.
-</p>
