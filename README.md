@@ -195,7 +195,7 @@ git clone https://github.com/Pedro-Lucas-Vieira/Aurora-AI.git
 ### 2. Entre na pasta do projeto
 
 ```bash
-cd AURORA-AI
+cd Aurora-AI
 ```
 
 ### 3. Crie um ambiente virtual
