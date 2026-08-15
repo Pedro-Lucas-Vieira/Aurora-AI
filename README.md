@@ -33,10 +33,10 @@
 ## 🎥 Vídeo de Demonstração
 
 <p align="center">
-  <!-- Substitua o link abaixo pelo vídeo de demonstração da aplicação -->
-  <a href="">
-    <img src="https://img.shields.io/badge/▶️-Assistir%20Demonstração-red?style=for-the-badge" alt="Assistir Demonstração">
-  </a>
+  
+  <<a href="https://youtu.be/cP88x4F2OfM">
+     <img src="https://img.shields.io/badge/▶️-Assistir%20Demonstração-red?style=for-the-badge" alt="Assistir Demonstração">
+   </a>
 </p>
 
 > 💡 Você também pode incorporar o vídeo diretamente (caso hospedado no GitHub) usando uma tag `<video>` ou um link para YouTube/Loom.
@@ -63,6 +63,21 @@ Antes de responder qualquer pergunta, o sistema realiza uma busca semântica uti
 
 Essa abordagem reduz significativamente a geração de respostas incorretas (alucinações) e torna a aplicação mais confiável.
 
+---
+
+## 📂 Documentos Suportados
+
+O AURORA AI pode processar automaticamente os seguintes formatos de documentos:
+
+- PDF (.pdf)
+- Word (.docx)
+- Excel (.xlsx)
+- PowerPoint (.pptx)
+- Markdown (.md)
+- HTML (.html)
+- JSON (.json)
+- CSV (.csv)
+- TXT (.txt)
 ---
 
 ## 🚀 Como Funciona
@@ -93,11 +108,11 @@ O fluxo da aplicação segue a arquitetura **RAG (Retrieval-Augmented Generation
 
 Algumas perguntas que podem ser feitas ao AURORA AI, de acordo com a documentação carregada:
 
-- "Quais são  as políticas antifraudes da empresa ?"
+- "Quais são as políticas antifraude da empresa?"
 - "Quais  são  os produtos da empresa ?"
-- "Qual a  Demonstração do Resultado do Exercício ?"
+- "Qual é a Demonstração do Resultado do Exercício (DRE)?"
 - "Quais são os Princípios Éticos da empresa ?"
-- "Quantos clientes são da os clientes da agência '0032'?"
+- "Quantos clientes pertencem à agência "0032"?"
 - "Qual a data que o Comunicado Institucional foi publicado ?"
 - "Quais são serviços isentos de tarifas ?"
 
@@ -237,7 +252,8 @@ A aplicação será aberta automaticamente no navegador.
 
 ## 📄 Como Atualizar a Base
 
-Sempre que novos documentos forem adicionados, removidos ou alterados na pasta `documentos/`, é necessário reconstruir a base vetorial para que o assistente passe a considerar essas mudanças:
+Sempre que novos documentos forem adicionados, removidos ou alterados na pasta `documentos/`, é necessário reconstruir a base vetorial para que o assistente passe a considerar essas mudanças.
+Não é necessário executar o arquivo `leitor_documentos.py`, pois ele é utilizado automaticamente pelo `criar_base.py` durante o processamento dos documentos.
 
 ```bash
 python criar_base.py
