@@ -15,9 +15,9 @@ from langchain_google_genai import (
 from langchain_community.vectorstores import FAISS
 
 
-
+# ============================================================
 # CONFIGURAÇÕES
-
+# ============================================================
 
 load_dotenv()
 
@@ -27,9 +27,9 @@ if not GOOGLE_API_KEY:
     raise ValueError("GOOGLE_API_KEY não encontrada no .env")
 
 
-
+# ============================================================
 # EMBEDDINGS
-
+# ============================================================
 
 embeddings = GoogleGenerativeAIEmbeddings(
     model="gemini-embedding-2",
@@ -37,9 +37,9 @@ embeddings = GoogleGenerativeAIEmbeddings(
 )
 
 
-
+# ============================================================
 # CARREGA A BASE FAISS
-
+# ============================================================
 
 print("Carregando base vetorial...")
 
@@ -52,9 +52,9 @@ vectorstore = FAISS.load_local(
 print("Base vetorial carregada com sucesso.")
 
 
-
+# ============================================================
 # MODELO GEMINI
-
+# ============================================================
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-3.5-flash",
@@ -65,9 +65,9 @@ llm = ChatGoogleGenerativeAI(
 
 )
 
-#
+# ============================================================
 # HISTÓRICO
-#
+# ============================================================
 
 historico = []
 
@@ -133,13 +133,21 @@ Escolha a expressão que melhor se encaixar na situação.
 
 10. Cumprimente, agradeça ou despeça-se naturalmente quando apropriado.
 
+# ============================================================
 HISTÓRICO:
+# ============================================================
 {conversa}
 
+# ============================================================
 DOCUMENTAÇÃO:
+# ============================================================
+
 {contexto}
 
+# ============================================================
 PERGUNTA:
+# ============================================================
+
 {pergunta}
 =========================
 INSTRUÇÃO FINAL
