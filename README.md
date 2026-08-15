@@ -39,7 +39,7 @@
    </a>
 </p>
 
-> 💡 Você também pode incorporar o vídeo diretamente (caso hospedado no GitHub) usando uma tag `<video>` ou um link para YouTube/Loom.
+
 
 ---
 
