@@ -44,15 +44,6 @@
 ---
 
 
-## 📷 Imagens da Aplicação
-
-<p align="center">
-  <img src="assets/Tela_inicial_chat.png" alt="Tela inicial do chat" width="45%">
-  <img src="assets/AURORA-AI-RESPONDENDO.png" alt="Exemplo de resposta com contexto" width="45%">
-</p>
-
----
-
 ## 📖 Sobre o Projeto
 
 O **AURORA AI** é um assistente corporativo baseado na arquitetura **Retrieval-Augmented Generation (RAG)**.
@@ -117,6 +108,19 @@ Algumas perguntas que podem ser feitas ao AURORA AI, de acordo com a documentaç
 - "Quais são serviços isentos de tarifas ?"
 
 > 💡 As respostas são geradas exclusivamente com base nos documentos internos indexados na pasta `documentos/`.
+
+---
+
+## 📷 Imagens da Aplicação com Respostas Geradas Pelo Agente
+
+<p align="center">
+  <img src="assets/Tela_inicial_chat.png" alt="Tela inicial do chat" width="45%">
+  <img src="assets/AURORA-AI-RESPONDENDO.png" alt="Exemplo de resposta com contexto" width="45%">
+  <img src="assets/resposta 2.png" alt="Tela inicial do chat" width="45%">
+  <img src="assets/resposta 3.png" alt="Tela inicial do chat" width="45%">
+</p>
+
+
 
 ---
 
