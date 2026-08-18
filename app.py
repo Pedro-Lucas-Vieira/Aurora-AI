@@ -16,7 +16,7 @@ from chatbot import responder
 
 st.set_page_config(
     page_title="AURORA AI",
-    page_icon="🤖",  # Substituído favicon por emoji
+    page_icon="🤖",  
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -72,7 +72,7 @@ section[data-testid="stSidebar"]{
 # ============================================================
 
 with st.sidebar:
-    # Substituída a imagem por um cabeçalho estilizado com emoji
+    
     st.markdown(
         '<div class="sidebar-title">🤖 AURORA AI</div>',
         unsafe_allow_html=True
