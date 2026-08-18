@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python" alt="Python">
   <img src="https://img.shields.io/badge/Streamlit-1.x-red?logo=streamlit" alt="Streamlit">
   <img src="https://img.shields.io/badge/LangChain-RAG-green" alt="LangChain">
-  <img src="https://img.shields.io/badge/Google-Gemini%202.5%20Flash-blue" alt="Google Gemini">
+  <img src="https://img.shields.io/badge/Google-Gemini%203.5%20Flash-blue" alt="Google Gemini">
   <img src="https://img.shields.io/badge/FAISS-Vector%20Database-orange" alt="FAISS">
 </p>
 
