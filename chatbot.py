@@ -1,4 +1,3 @@
-
 # ============================================================
 # CHATBOT DA AURORA S.A.
 # ============================================================
@@ -94,7 +93,6 @@ def responder(pergunta):
     # Pega as últimas mensagens
     conversa = "\n".join(historico[-8:])
 
-    # Prompt
     prompt = f"""
 Você é o AURORA S.A, assistente corporativo da empresa AURORA S.A.
 
@@ -159,10 +157,10 @@ Quando apropriado, indique que a resposta está baseada em uma política, proced
 
 """
 
-    # Envia para o Gemini
+
     resposta = llm.invoke(prompt)
 
-    # A resposta pode vir como texto ou lista
+
     if isinstance(resposta.content, str):
 
         texto = resposta.content
@@ -179,7 +177,7 @@ Quando apropriado, indique que a resposta está baseada em uma política, proced
             elif isinstance(item, str):
                 texto += item
 
-    # Salva no histórico
+
     historico.append(
         f"Usuário: {pergunta}"
     )
@@ -188,7 +186,7 @@ Quando apropriado, indique que a resposta está baseada em uma política, proced
         f"Assistente: {texto}"
     )
 
-    # Mantém somente as últimas mensagens
+    
     if len(historico) > 20:
         historico.pop(0)
         historico.pop(0)

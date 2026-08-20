@@ -28,13 +28,13 @@ from langchain_community.document_loaders import (
 # ============================================================
 
 def ler_pdf(caminho):
-    """Lê um arquivo PDF."""
+
     leitor = PyPDFLoader(str(caminho))
     return leitor.load()
 
 
 def ler_word(caminho):
-    """Lê um documento do Word."""
+
     leitor = UnstructuredWordDocumentLoader(str(caminho))
     return leitor.load()
 
@@ -49,13 +49,13 @@ def ler_texto(caminho):
 
 
 def ler_html(caminho):
-    """Lê arquivos HTML."""
+
     leitor = UnstructuredHTMLLoader(str(caminho))
     return leitor.load()
 
 
 def ler_csv(caminho):
-    """Lê arquivos CSV."""
+
     leitor = CSVLoader(
         str(caminho),
         encoding="utf-8"
@@ -97,7 +97,6 @@ def ler_excel(caminho):
 
 
 def ler_powerpoint(caminho):
-    """Lê arquivos PowerPoint."""
 
     documentos = []
 
@@ -132,7 +131,7 @@ def ler_powerpoint(caminho):
 
 
 def ler_json(caminho):
-    """Lê arquivos JSON."""
+
 
     with open(caminho, encoding="utf-8") as arquivo:
 
@@ -158,11 +157,7 @@ def ler_json(caminho):
 
 def ler_arquivo(caminho):
 
-    """
-    Recebe o caminho de qualquer arquivo
-    e escolhe automaticamente qual função
-    deve ser utilizada para fazer a leitura.
-    """
+
 
     extensao = Path(caminho).suffix.lower()
 
@@ -193,7 +188,7 @@ def ler_arquivo(caminho):
     else:
         documentos = []
 
-    # Guarda o nome do arquivo nos metadados
+   
     for documento in documentos:
         documento.metadata["arquivo"] = Path(caminho).name
 

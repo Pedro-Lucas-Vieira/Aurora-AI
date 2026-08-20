@@ -257,6 +257,7 @@ A aplicação será aberta automaticamente no navegador.
 ## 📄 Como Atualizar a Base
 
 Sempre que novos documentos forem adicionados, removidos ou alterados na pasta `documentos/`, é necessário reconstruir a base vetorial para que o assistente passe a considerar essas mudanças.
+
 Não é necessário executar o arquivo `leitor_documentos.py`, pois ele é utilizado automaticamente pelo `criar_base.py` durante o processamento dos documentos.
 
 ```bash
@@ -299,10 +300,5 @@ Este projeto foi desenvolvido para fins educacionais e para demonstração de ha
   <strong>Pedro Lucas</strong>
 </p>
 
-<p align="center">
-  <a href="https://github.com">
-    <img src="https://img.shields.io/badge/GitHub-Perfil-black?logo=github">
-  </a>
-</p>
 
 ---
